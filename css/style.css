@@ -1,0 +1,358 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.log {
+    width: 10px;
+    height: 10px;
+}
+
+body {
+    line-height: 1.6;
+    color: #333;
+    font-size: 1.1rem;
+    overflow-x: hidden;
+}
+
+h2 {
+    font-family: 'Dancing Script', cursive;
+}
+
+h1, h2,h3,h4 {
+    line-height: 1.3;
+}
+
+a:hover {
+    color: #282828;
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+img {
+    /* want each image to take the size of the container */
+    width: 100%;
+}
+
+/* Styling for time & email */
+.introduction {
+    background-color: #240090;
+}
+
+.contact-info a {
+    color: white;
+}
+
+/* Navigation styling */
+.dunamis_logo {
+    height: 40px;
+    width: 50px;
+}
+
+/* This is for the banner container */
+
+.banner_container {
+    background-image: linear-gradient(to right, transparent, black), url("../images/banner.jpg");
+    height: 573px;
+    width: auto;
+    background-position: 50% 10% 20% ;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner_container, .praise, .services_banner, #set_appointment, .quote_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Design for the Services and what I do */
+.my_icon {
+    font-size: 80px;
+    color: rgb(255, 110, 58);
+}
+
+.my_icon1 {
+    font-size: 80px;
+    color: lightseagreen;
+}
+
+.my_icon2 {
+    font-size: 80px;
+    color: #0C0032;
+}
+
+/* This is a section for our strory */
+#story {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgba(49, 44, 48, 0.8)), url("../images/about.jpg");
+    height: 99vh;
+    width: auto;
+    background-position: 50% 10% 20% ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.titl {
+    position: relative;
+    top: 28px;
+}
+
+.line {
+    background-color: white;
+}
+
+.story_img {
+    height: 453px;
+    width: auto;
+    background-color: rgb(248,248,248,0.2);
+    box-shadow: 4px 8px 16px;
+    border-radius: 10px;
+}
+
+.title_introUS h3 {
+    color: white;
+}
+
+.main_head {
+    color: white;
+    text-decoration: underline;
+}
+
+.title_introUS h3 {
+    font-weight: bolder;
+    font-family: 'Averia Sans Libre', cursive;
+    font-size: 39px;
+}
+
+.who-icon {
+    font-size: 30px;
+    color: rgb(214, 222, 243);
+}
+
+/*This is for Social media styling */
+.social-media {
+    background-color: #282828;
+}
+
+.social-media a {
+    font-size: 22px;
+}
+
+/* This is a styling for my footer */
+.my-footer {
+    background-color: #000;
+}
+
+.links p a {
+    color: white;
+}
+
+/* This styling is for the contact form */
+.line1 {
+    width: 450px;
+}
+
+/* this is the section for praise */
+.praise {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(49, 44, 48, 0.73)), url("../images/office.jpeg");
+    height: 253px;
+    width: auto;
+    background-position: 50% 10% 20% ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/* THIS IS FOR THE SERVICES PAGE STYLING */
+
+/* This is for making an appointment */
+#set_appointment {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(49, 44, 48, 0.7)), url("../images/appoint.jpg");
+    height: 213px;
+    width: 100%;
+    background-position: 80% 50%;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/* Banner styling for the services page */
+.services_banner {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(49, 44, 48, 0.73)), url("../images/coding.png");
+    height: 62vh !important;
+    background-position: 80% 50%;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.line2 {
+    width: 85px;
+    height: 7px;
+    background-color: #190061;
+}
+
+.service_icon {
+    height: 50px;
+    width: 50px;
+}
+
+.service_suited {
+    background-color: rgb(248,248,248);
+    height: 1190px;
+}
+
+.suited h3 {
+    padding-top: 20px;
+}
+
+.business_type {
+    height: 280px;
+    width: 300px;
+    background-color: white;
+    box-shadow: 4px 8px 16px;
+    border-radius: 10px;
+}
+
+.type-icon2 {
+    font-size: 55px;
+    color: lightblue;
+}
+
+.business_type p  {
+    font-size: 14px;
+}
+
+.start1 {
+    background-color: black;
+    height: 60px;
+    width: 60px;
+}
+
+.type-footer {
+    background-color: black;
+}
+
+.type {
+    padding-top: 23px;
+}
+
+.deep-purple {
+    background-color: white;
+}
+
+.starting {
+    height: 320px;
+}
+
+/* This is for the request a quote section */
+.quote_container {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(49, 44, 48, 0.73)), url("../images/quote.jpg");
+    height: 373px;
+    width: auto;
+    background-position: 80% 50% ;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* This is for Social media */
+.social-icon1 {
+    color: rgb(122, 214, 122);
+    font-size: 30px;
+}
+
+.social-icon2 {
+    color: rgb(235, 159, 159);
+    font-size: 30px;
+}
+
+.social-icon3 {
+    color: rgb(114, 114, 231);
+    font-size: 30px;
+}
+
+/* This section is for the responsive devices media-query */
+@media screen and (max-width: 768px)    {
+    /* This is for the banner page */
+    .home_ban, .quote_ban{
+        width: 80%;
+        text-align: center;
+    }
+
+    .banner_sent, .quote_sent {
+        display: flex;
+        justify-content: center;
+    }
+
+    /* this is for about us */
+    .about1 {
+        padding-top: 70px;
+    }
+
+    .mission {
+        display: none;
+    }
+
+    .about1 .us_container .us_list p, .about1 h3 {
+        color: black;
+    }
+
+    .links {
+        display: none;
+    }
+
+    /* This section is for the quotation media query */
+    #main_id {
+        width: 90%;
+    }
+
+    .quote_contact {
+        margin-left: 23px;
+        padding-left: 15px;
+    }
+
+    /* This section is for the services media query */
+    .business_type {
+        height: 120px;
+        
+    }
+
+    .business_type p {
+       display: none;
+    }
+
+    .what-we-do {
+        background-color: rgb(248,248,248);
+        height: 250vh;
+    }
+
+    .ourtypes {
+        margin-left: 55px;
+    }
+
+    .our_job {
+        margin-top: 30px;
+    }
+
+    .starting {
+        height: 110vh;
+    }
+
+    .set_appoint {
+        position: relative;
+        bottom: 110px;
+    }
+
+    .start1 {
+        margin-top: 120px;
+    }
+
+}
